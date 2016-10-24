@@ -14,9 +14,9 @@ var Main = {
     create: function () {
         var me = this;
         // game.scale.fullScreenScaleMode = Phaser.ScaleManager.EXACT_FIT;
-        game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-        game.scale.pageAlignHorizontally = true;
-        game.scale.pageAlignVertically = true;
+        // game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+        // game.scale.pageAlignHorizontally = true;
+        // game.scale.pageAlignVertically = true;
         this.scale.updateLayout(true);
         me.counter = 0;
         me.speedUp = 0;
